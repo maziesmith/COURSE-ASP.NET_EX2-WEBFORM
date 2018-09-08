@@ -40,13 +40,13 @@ namespace COURSE_ASP.NET_EX2_WEBFORM {
         protected global::System.Web.UI.WebControls.Image Img1;
         
         /// <summary>
-        /// TextBox1 control.
+        /// txtPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtPrice;
         
         /// <summary>
         /// RadioButton1 control.

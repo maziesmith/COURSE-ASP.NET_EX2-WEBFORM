@@ -26,7 +26,8 @@ namespace COURSE_ASP.NET_EX2_WEBFORM
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
+            Session["data"] = txtPrice.Text;
+            Response.Redirect("Report.aspx");
         }
     }
 }

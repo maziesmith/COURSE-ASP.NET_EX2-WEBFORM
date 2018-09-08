@@ -50,13 +50,13 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style4"></td>
+                <td class="auto-style5"></td>
             </tr>
             <tr>
                 <td class="auto-style6">Precio Al Contado </td>
                 <td class="auto-style7">
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtPrice" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
