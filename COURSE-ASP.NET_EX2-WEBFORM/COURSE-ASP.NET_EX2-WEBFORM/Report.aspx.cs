@@ -11,7 +11,7 @@ namespace COURSE_ASP.NET_EX2_WEBFORM
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            lblTest.Text = (String)Session["data"];
+            //lblTest.Text = (String)Session["data"];
         }
     }
 }

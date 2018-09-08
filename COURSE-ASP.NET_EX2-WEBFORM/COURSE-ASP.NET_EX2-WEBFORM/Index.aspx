@@ -62,9 +62,9 @@
             <tr>
                 <td class="auto-style3">Meses de pago en </td>
                 <td>
-                    <asp:RadioButton ID="RadioButton1" runat="server" Text="6" />
-                    <asp:RadioButton ID="RadioButton2" runat="server" Text="12" />
-                    <asp:RadioButton ID="RadioButton3" runat="server" Text="18" />
+                    <asp:RadioButton ID="rdr6" runat="server" Text="6" />
+                    <asp:RadioButton ID="rdr12" runat="server" Text="12" />
+                    <asp:RadioButton ID="rdr18" runat="server" Text="18" />
                 </td>
             </tr>
             <tr>
