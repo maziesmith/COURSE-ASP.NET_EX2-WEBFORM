@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COURSE-ASP.NET_EX2-WEBFORM", "COURSE-ASP.NET_EX2-WEBFORM\COURSE-ASP.NET_EX2-WEBFORM.csproj", "{08266C00-B5D7-40A2-B61D-6890C614E4EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08266C00-B5D7-40A2-B61D-6890C614E4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08266C00-B5D7-40A2-B61D-6890C614E4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08266C00-B5D7-40A2-B61D-6890C614E4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08266C00-B5D7-40A2-B61D-6890C614E4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1CAE6A0-F4BC-4B70-80FB-D4CF056D92CA}
+	EndGlobalSection
+EndGlobal
