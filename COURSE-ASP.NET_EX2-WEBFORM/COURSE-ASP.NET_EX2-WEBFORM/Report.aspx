@@ -14,6 +14,32 @@
         }
         .auto-style3 {
             text-align: center;
+            height: 23px;
+        }
+        .auto-style4 {
+            text-align: left;
+            height: 24px;
+        }
+        .auto-style5 {
+            text-align: center;
+            width: 185px;
+        }
+        .auto-style6 {
+            text-align: center;
+            height: 24px;
+            width: 185px;
+        }
+        .auto-style7 {
+            height: 23px;
+            width: 185px;
+        }
+        .auto-style8 {
+            text-align: left;
+        }
+        .auto-style9 {
+            text-align: center;
+            width: 185px;
+            height: 23px;
         }
     </style>
 </head>
@@ -22,11 +48,32 @@
         <div>
             <table class="auto-style1">
                 <tr>
+                    <td class="auto-style9"></td>
                     <td class="auto-style3" colspan="2"><strong>REPORTE</strong></td>
                 </tr>
                 <tr>
+                    <td class="auto-style6">Fecha De Compra</td>
+                    <td class="auto-style4" colspan="2">
+                        <asp:Label ID="lblDate" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style5">Artefacto</td>
+                    <td class="auto-style8" colspan="2">
+                        <asp:Label ID="lblArt" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style5">Precio A credito</td>
+                    <td colspan="2">
+                        <asp:Label ID="lblPrice" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style7">
+                        &nbsp;</td>
                     <td class="auto-style2">
-                        <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
+                        <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
                             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                             <EditRowStyle BackColor="#999999" />
                             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
@@ -43,9 +90,10 @@
                     <td class="auto-style2"></td>
                 </tr>
                 <tr>
+                    <td class="auto-style7">
+                        &nbsp;</td>
                     <td class="auto-style2">
                         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Index.aspx">Retornar</asp:HyperLink>
-                        <asp:Label ID="lblTest" runat="server" Text="lblTest"></asp:Label>
                     </td>
                     <td class="auto-style2"></td>
                 </tr>
